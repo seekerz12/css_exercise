@@ -21,6 +21,7 @@ body{
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .achievements{
@@ -30,6 +31,12 @@ body{
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.biography:hover, .achievements:hover {
+    transform: translateY(-5px); /* Moves the card up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Makes the shadow deeper */
 }
 
 .content{
