@@ -1,0 +1,45 @@
+header{
+    background-color: red;
+    display: flex;
+    place-items: center;
+    justify-content:center ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+.biography{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.achievements{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    max-width: 9900px;
+    margin: auto;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    display: flex;
+    place-items: center;
+    justify-content:center ;
+    font-family: Arial, Helvetica, sans-serif;
+}
